@@ -11,7 +11,7 @@ Patch0:		%{name}-axcheck.patch
 URL:		http://sites.inka.de/~bigred/hadinet/usocksd.html
 BuildRequires:	autoconf
 BuildRequires:	automake
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 User-mode SOCKS5 daemon.
