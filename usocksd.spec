@@ -1,4 +1,5 @@
-Summary:	User-mode SOCKS5 daemon.
+Summary:	User-mode SOCKS5 daemon
+Summary(pl):	Demon SOCKS5 dzia³aj±cy w przestrzeni u¿ytkownika
 Name:		usocksd
 Version:	0.9.3
 Release:	1
@@ -9,10 +10,14 @@ Source0:	http://sites.inka.de/sites/bigred/sw/%{name}-%{version}.tar.gz
 Patch0:		%{name}-axcheck.patch
 URL:		http://sites.inka.de/~bigred/hadinet/usocksd.html
 BuildRequires:	autoconf
+BuildRequires:	automake
 Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-User-mode SOCKS5 daemon
+User-mode SOCKS5 daemon.
+
+%description -l pl
+Demon SOCKS5 dzia³aj±cy w przestrzeni u¿ytkownika.
 
 %prep
 %setup -q
