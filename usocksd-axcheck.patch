@@ -1,0 +1,10 @@
+--- usocksd-0.9.3/configure.in~	1999-05-13 20:43:02.000000000 +0000
++++ usocksd-0.9.3/configure.in	2003-08-22 19:53:59.000000000 +0000
+@@ -150,7 +150,6 @@
+ AC_C_INLINE
+ AC_TYPE_SIZE_T
+ AC_TYPE_SIGNAL
+-AX_CHECK_TYPE(sig_atomic_t, signal.h, int)
+ 
+ dnl
+ dnl     Checks for library functions.
