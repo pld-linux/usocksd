@@ -1,5 +1,5 @@
 Summary:	User-mode SOCKS5 daemon
-Summary(pl.UTF-8):   Demon SOCKS5 działający w przestrzeni użytkownika
+Summary(pl.UTF-8):	Demon SOCKS5 działający w przestrzeni użytkownika
 Name:		usocksd
 Version:	0.9.3
 Release:	1
